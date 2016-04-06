@@ -8,7 +8,7 @@
     </head>
     <body>
     <div class="row">
-    	<div class="col-md-12" style="background: #FF3A00"><h1><center>CABECERA</center></h1>
+    	<div class="col-md-12" style="background: #FF3A00"><h1><center>CABECERA DE MINION</center></h1>
         {{-- Verifica si el usuario ha iniciado sesion para mostrar el link de logout --}}
                 @if(Auth::check())
                   <div class="col-md-1">
