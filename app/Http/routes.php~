@@ -1,0 +1,44 @@
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Application Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register all of the routes for an application.
+| It's a breeze. Simply tell Laravel the URIs it should respond to
+| and give it the controller to call when that URI is requested.
+|
+*/
+use Illuminate\Http\Request;
+
+Route::get('/', function () {
+//Route::get("ruta1", function () {
+    //return view('welcome');
+      return "<b>Hola mundo</b>";
+});
+
+//Route::get('/', function () {
+Route::get("puede/ser/cualquiera/cosa.php", function () {
+    //return view('welcome');
+      return "<b>Otra Cosa</b>";
+});
+
+Route::get("variable", function() {
+	return config("app.ciudad");
+});
+
+Route::get("saluda/{nombre}/{apellido}", function($nombre, $apellido) {
+	return "<b>Saludar  </b>".$nombre."  ".$apellido;
+});
+
+//Route::get("verificar/{id?}", function($id=0) {
+//	return $id;
+//})-> where ('id','[0-9]+');
+
+Route::get("verificar/{id?}", function(Request $r, $id=0) {
+	$pagina = $r->get('pagina');	
+	return $pagina;
+})
+
+
