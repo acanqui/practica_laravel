@@ -24,6 +24,36 @@ use Illuminate\Http\Request;
 
 			return view('welcome');			
 		}
+		public function inicio()
+		{
+
+			return view('welcome');			
+		}
+
+public function inicio()
+		{
+
+			return view('welcome');			
+		}
+
+public function inicio()
+		{
+
+			return view('welcome');			
+		}
+
+public function inicio()
+		{
+
+			return view('welcome');			
+		}
+
+public function inicio()
+		{
+
+			return view('welcome');			
+		}
+
 
 
 	}
