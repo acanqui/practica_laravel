@@ -57,4 +57,67 @@ class CategoriaController extends Controller
             'status' => 'ok'
         ]);
     }
+    public function destroy(Request $r, $id)
+    {
+        $categoria = Categoria::findOrFail($id);
+        $categoria->delete();
+
+        return response()->json([
+            'status' => 'ok'
+        ]);
+    }
+    public function destroy(Request $r, $id)
+    {
+        $categoria = Categoria::findOrFail($id);
+        $categoria->delete();
+
+        return response()->json([
+            'status' => 'ok'
+        ]);
+    }
+    public function destroy(Request $r, $id)
+    {
+        $categoria = Categoria::findOrFail($id);
+        $categoria->delete();
+
+        return response()->json([
+            'status' => 'ok'
+        ]);
+    }
+    public function destroy(Request $r, $id)
+    {
+        $categoria = Categoria::findOrFail($id);
+        $categoria->delete();
+
+        return response()->json([
+            'status' => 'ok'
+        ]);
+    }
+    public function destroy(Request $r, $id)
+    {
+        $categoria = Categoria::findOrFail($id);
+        $categoria->delete();
+
+        return response()->json([
+            'status' => 'ok'
+        ]);
+    }
+    public function destroy(Request $r, $id)
+    {
+        $categoria = Categoria::findOrFail($id);
+        $categoria->delete();
+
+        return response()->json([
+            'status' => 'ok'
+        ]);
+    }
+    public function destroy(Request $r, $id)
+    {
+        $categoria = Categoria::findOrFail($id);
+        $categoria->delete();
+
+        return response()->json([
+            'status' => 'ok'
+        ]);
+    }
 }
