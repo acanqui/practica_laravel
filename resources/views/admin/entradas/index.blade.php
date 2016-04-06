@@ -3,7 +3,7 @@
 
 <div class="row">   
 	<div class="col-md-1 offset-10">
-		<a href="/admin/entradas/nuevo">Nueva Entrada</a>
+		<a href="/admin/entradas/nuevo">Nueva Entrada - Modificada para hacer la Prueba con Hithub</a>
 	</div>
 </div>
 <div class="row">
