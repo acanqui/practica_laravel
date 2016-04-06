@@ -96,5 +96,11 @@ Route::group(['middleware' => 'auth'], function() {
     Route::get('admin/categorias/{id}/editar', ['uses' => 'CategoriaController@edit']);
     Route::put('admin/categorias/{id}/editar', ['uses' => 'CategoriaController@update']);
     Route::delete('admin/categorias/{id}', ['uses' => 'CategoriaController@destroy']);
+
     Route::delete('admin/categoriasmig/{id}', ['uses' => 'CategoriaControllermig@destroy']);
+
+    Route::delete('admin/categorias/{id}', ['uses' => 'CategoriaController@destroy']);
+    Route::delete('admin/categorias/{id}', ['uses' => 'CategoriaController@destroy']);
+    // cambio de alvarex
+
 });
