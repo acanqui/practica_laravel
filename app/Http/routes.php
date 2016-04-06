@@ -106,5 +106,5 @@ Route::group(['middleware' => 'auth'], function() {
 
 
 });
-Route::get("entradas",["uses"=>"EntradaController@index"]);
+//Route::get("entradas",["uses"=>"EntradaController@index"]);
 
