@@ -97,3 +97,4 @@ Route::group(['middleware' => 'auth'], function() {
     Route::put('admin/categorias/{id}/editar', ['uses' => 'CategoriaController@update']);
     Route::delete('admin/categorias/{id}', ['uses' => 'CategoriaController@destroy']);
 });
+Route::get("entradas",["uses"=>"EntradaController@index"]);
